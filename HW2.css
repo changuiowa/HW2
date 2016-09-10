@@ -1,13 +1,32 @@
 body {
-    background-color: lightblue;
+    background-color: #2E4053;
+}
+
+img{
+    float:left;
+}
+
+ul{
+    display:inline;
 }
 
 h1 {
-    color: white;
+    color: #73C6B6;
+    text-align: center;
+}
+
+h2 {
+    color: #3498DB;
     text-align: center;
 }
 
 p {
     font-family: verdana;
     font-size: 20px;
+}
+
+input[value=Go back to index page] {
+    background:white;
+    width:200px;
+    height:41px;
 }
