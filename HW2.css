@@ -20,6 +20,11 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    color: #73C6B6;
+    text-align: left;
+}
+
 p {
     font-family: verdana;
     font-size: 20px;
@@ -29,4 +34,44 @@ input[value=Go back to index page] {
     background:white;
     width:200px;
     height:41px;
+}
+
+/*frames of pictures*/
+.photo1 {
+    background-color: black;
+    color: white;
+    width: 300px;
+	height: 200px;
+    padding: 5px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.photo2 {
+    background-color: black;
+    color: white;
+    width: 300px;
+	height: 450px;
+    padding: 5px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/* divide the screen */
+
+
+#first{
+	width:65%;
+	padding:5px;
+	float:left;
+	overflow:hidden;
+}
+
+#second {
+	width:30%;
+	padding:5px;
+	float:right;
+	overflow:hidden;
 }
