@@ -37,6 +37,14 @@ input[value=Go back to index page] {
     height:41px;
 }
 
+.boxmodel {
+    background-color: black;
+    width: 1000px;
+    border: 5px solid green;
+    padding: 10px;
+    margin: 10px;
+}
+
 /*frames of pictures*/
 .photo1 {
     background-color: black;
@@ -60,19 +68,48 @@ input[value=Go back to index page] {
 	margin-bottom: 10px;
 }
 
+ul.list1 {
+	list-style-type: square;
+}
+
+ul.list2 {
+	list-style-type: circle;
+}
+
 /* divide the screen */
+#veryLeft{
+	width:25%;
+	padding:5px;
+	float:left;
+	overflow:hidden;
+}
 
 
 #first{
-	width:65%;
+
+	width:40%;
 	padding:5px;
 	float:left;
 	overflow:hidden;
 }
 
 #second {
-	width:30%;
+	width:25%;
 	padding:5px;
 	float:right;
+	overflow:hidden;
+}
+
+#resumespacing1{
+	width:10%;
+	padding:5px;
+	float:left;
+	overflow:hidden;
+}
+
+#resumespacing2{
+	width:80%;
+	padding:5px;
+	float:left;
 	overflow:hidden;
 }
